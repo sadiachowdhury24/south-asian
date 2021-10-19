@@ -1,0 +1,404 @@
+*{
+    
+  box-sizing:border-box;
+  margin: 0;
+  padding:0;
+  background-color: #CCFBF6;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  scroll-behavior: smooth;
+  
+}
+
+
+#logo{
+font-family: Georgia, serif;
+font-size: 30px;
+letter-spacing: 2.5px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+/* HomePage */
+#homePicture{
+  padding-top:3px;
+  height:650px;
+  width:1450px;
+}
+.homeText1{
+  color: #606060;
+  font-size: 40px;
+  padding-left:200px; 
+}
+
+.col-md-4 {
+  flex: 0 0 33.3333333%;
+  max-width: 33.3333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+}
+
+#mission{
+  margin-left: 600px;
+  color:gray;
+}
+
+#missionP{
+  margin-left: 450px;
+  margin-right: 450px;
+  box-shadow : 0 -6px 0 rgba(235, 150, 108, 0.2); 
+  color : rgba(58, 88, 155, 0.8);  
+  font-style : italic; 
+  font-size : 28px; 
+  line-height : 46px; 
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.5);  
+}
+
+
+
+
+/* Quotes */
+
+#quotes{
+
+   display:flex;
+   /* justify-content: center; */
+   justify-content: space-between;
+   align-items:center;
+   flex-direction: column;
+}
+#quotesheader{
+  margin-left:160px;
+  margin-bottom:30px;
+}
+
+
+
+.main {
+  position : relative; 
+} 
+
+
+.mb-wrap p {
+  margin : 10px; 
+  padding : 10px; 
+}
+
+.mb-wrap blockquote {
+  margin : 0; 
+  padding : 0; 
+  position : relative; 
+} 
+
+
+
+.mb-style-2 blockquote {
+  padding-top : 150px; 
+} 
+
+.mb-style-2 blockquote:after {
+    background: none repeat scroll 0 0 rgba(235, 150, 108, 0.7);
+    border-radius: 50% 50% 50% 50%;
+    color: rgba(255, 255, 255, 0.5);
+    content: "❞";
+    font-family: 'icons';
+    font-size: 70px;
+    height: 130px;
+    left: 50%;
+    line-height: 130px;
+    margin-left: -65px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    top: 0;
+    width: 130px;
+}
+
+.mb-style-2 blockquote:before {
+    border-left: 5px solid rgba(235, 150, 108, 0.1);
+    border-radius: 50% 50% 50% 50%;
+    content: "";
+    height: 500px;
+    left: -50px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+    z-index: -1;
+}
+
+.mb-style-2 blockquote p {
+  background : none repeat scroll 0 0 rgba(255, 255, 255, 0.5); 
+  box-shadow : 0 -6px 0 rgba(235, 150, 108, 0.2); 
+  color : rgba(235, 150, 108, 0.8); 
+  display : inline; 
+  font-family : Baskerville, Georgia, serif; 
+  font-style : italic; 
+  font-size : 28px; 
+  line-height : 46px; 
+  text-shadow : 0 1px 1px rgba(255, 255, 255, 0.5);  
+} 
+
+ 
+
+
+
+
+/* Diary */
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 12.5px;
+  border-style: double;
+  border-color: #7BCAE9;
+  background-color: #CCFBF6;
+  color: #7BCAE9;
+  
+}
+header {
+  text-align: center;
+  margin: 1em auto;
+}
+.section {
+  padding: 1em 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+
+.container-row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Button Standard */
+
+.btn-main,
+.btn-light,
+.btn-dark {
+  display: block;
+  padding: 0.6rem 2rem;
+  margin: 1rem;
+  transition: all 0.1s;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-main {
+  color: lightgoldenrodyellow;
+  background-color: lightcoral;
+}
+
+.btn-light {
+  color: #0a2472;
+  background-color: white;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #0a2472;
+}
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: lightgoldenrodyellow;
+  color: lightcoral;
+  font-weight: 700;
+  transform: scale(1.08);
+}
+
+
+
+/* Journal Entry Section */
+
+/* Title */
+
+.entry-text-title {
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+ 
+}
+
+.entry-text-title:focus {
+  outline-color: lightcoral;
+ 
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-title::placeholder {
+  color: lightcoral;
+
+  font-size: 1rem;
+}
+
+.entry-text-title::-ms-value {
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+/* Text Box */
+
+.container-row-journal {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.journal-label {
+  display: block;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.entry-text-box {
+  width: 100%;
+  height: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+}
+
+@media (min-width: 769px) {
+  .entry-text-box {
+    width: 40em;
+    height: 20em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: lightgoldenrodyellow;
+    
+  }
+}
+
+.entry-text-box:focus {
+  outline-color: lightcoral;
+
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-box::placeholder {
+  color: lightcoral;
+
+  font-size: 1rem;
+}
+
+.entry-submit-btn {
+  margin: 0;
+}
+
+ /* Awareness */
+ #awareness{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+  
+ }
+
+ a:hover:after{
+  color: transparent;
+  text-decoration: underline;
+}
+
+.card {
+  box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+  color: lightcoral;
+  transition: 0.3s;
+}
+
+h4{
+  text-align: center;
+}
+
+
+
+/* Search Therapists*/
+#searchbar{
+  margin-left:480px;
+  margin-bottom:50px;
+}
+
+#searchImage{
+  margin-left:80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#searchPage{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+#searchTherapistCard{
+  padding-left:100px;
+  padding-right:100px;
+  position:relative;
+}
+#searchTherapistCards{
+  height: 350px;
+  width:350px;
+  
+}
+input{
+  width:500px;
+  height:45px;
+}
+
+a:link{
+  text-decoration-line: none;
+}
+
+
+
+
+
+/* Footer */
+/* .footer{
+  position: fixed;
+  left: 0;
+  bottom:0;
+  width:100%;
+  height:15%;
+}
+
+.foottop{
+  margin-top:200px;
+} */
+
+
